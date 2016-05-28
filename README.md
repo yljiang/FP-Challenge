@@ -9,15 +9,15 @@ Outdated imports were updated for simplicity.
 Hello fellow coders. Welcome to the Fresh Prints coding challenge!
 Here, we will give you what you need to get started.
 
-## Getting set up
+### Getting set up
 1. Install node
 2. git clone git@bitbucket.org:freshprints/fresh-prints-tech-challenge.git
 
-## To start the application
+### To start the application
 1. Run "npm install" to download dependencies
 2. Run "npm start" to start server
 
-## Complete the following files to finish the challenge
+### Complete the following files to finish the challenge
 1. public/js/controller.js
 2. routes/api.js
 	You need to complete the two API end points and the Inventory check function.
@@ -28,7 +28,7 @@ Here, we will give you what you need to get started.
 	A bootstrap CDN is also imported by default
 
 ## We included a few tools to help you
-## MYSQL driver
+### MYSQL driver
 We have set up a read only connection to a MYSQL database containing apparel and printing cost information.
 To query the mysql database, use the connection object that is imported in api.js.
 Here is an example:
@@ -41,5 +41,5 @@ Here is an example:
 
 More examples can be found here: https://github.com/felixge/node-mysql
 
-## Inventory Check API Documentation
+### Inventory Check API Documentation
 https://docs.google.com/document/d/12ELHIBwOnSleMhXTwceuviE9MY4zQ-VZS2ymO8F0Rpo/edit#
