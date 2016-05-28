@@ -1,10 +1,5 @@
 # Fresh Prints Tech Challenge!!!!!!!!!!!
 
-## Acknowledgements
-
-The following seed is forked from https://github.com/btford/angular-express-seed and modified.
-Outdated imports were updated for simplicity.
-
 ## Introduction
 Hello fellow coders. Welcome to the Fresh Prints coding challenge!
 Here, we will give you what you need to get started.
@@ -43,3 +38,7 @@ More examples can be found here: https://github.com/felixge/node-mysql
 
 ### Inventory Check API Documentation
 https://docs.google.com/document/d/12ELHIBwOnSleMhXTwceuviE9MY4zQ-VZS2ymO8F0Rpo/edit#
+
+## Acknowledgements
+The following seed is forked from https://github.com/btford/angular-express-seed and modified.
+Outdated imports were updated for simplicity.
