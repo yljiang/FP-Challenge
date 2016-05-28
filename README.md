@@ -1,18 +1,32 @@
-# Fresh Prints Tech Challenge!!!!!!!!!!!
+# Fresh Prints Tech Challenge!!
 
 ## Introduction
 Hello fellow coders. Welcome to the Fresh Prints coding challenge!
 Here, we will give you what you need to get started.
 
-### Getting set up
+#### Getting set up
 1. Install node
 2. git clone git@bitbucket.org:freshprints/fresh-prints-tech-challenge.git
 
-### To start the application
+#### To start the application
 1. Run "npm install" to download dependencies
 2. Run "npm start" to start server
 
-### Complete the following files to finish the challenge
+## Challenge Specifications
+1. You need to get the list of available apparels from our database (the connection is already set up for you, you just have to query the apparel table)
+	- The quoting should take in a couple of parameters:
+	- The apparel style code
+	- The apparel color
+	- The apparel size
+2. The number of apparel that will be ordered
+3. Once all the parameters are passed in through the interface the quoter will reference the apparel provider's api for the pricing
+4. Then you have to add the cost of shipping which if the shipping weight is < '0.4' then it should be 1.00 per item for quantities under 48 pieces, and $0.75 for quantities 48 items or more. If the shipping weight > '0.4' then it it should be $0.50 for quantities under 45
+and $0.25 for quantities 48 or more.
+5. It then must make a calculation for the salesman compensation which is 7% of the final order cost.
+6. Then the function takes the calculated cost and marks it up. The mark up percentage should be dependent on the total order cost (quantity*individual cost). If the total cost is $800 or less, markups by 50%. If the total order cost is more than $800 markup by 45%. The
+interface should spit out a quote price per item and a total price based on the parameters passed through.
+
+#### Complete the following files to finish the challenge
 1. public/js/controller.js
 2. routes/api.js
 	You need to complete the two API end points and the Inventory check function.
@@ -23,7 +37,7 @@ Here, we will give you what you need to get started.
 	A bootstrap CDN is also imported by default
 
 ## We included a few tools to help you
-### MYSQL driver
+#### MYSQL driver
 We have set up a read only connection to a MYSQL database containing apparel and printing cost information.
 To query the mysql database, use the connection object that is imported in api.js.
 Here is an example:
@@ -36,9 +50,12 @@ Here is an example:
 
 More examples can be found here: https://github.com/felixge/node-mysql
 
-### Inventory Check API Documentation
+#### Inventory Check API Documentation
 https://docs.google.com/document/d/12ELHIBwOnSleMhXTwceuviE9MY4zQ-VZS2ymO8F0Rpo/edit#
 
+We wish you the best.
+
 ## Acknowledgements
+
 The following seed is forked from https://github.com/btford/angular-express-seed and modified.
 Outdated imports were updated for simplicity.
