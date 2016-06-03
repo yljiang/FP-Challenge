@@ -3,3 +3,33 @@
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
 }
+
+h3{
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+/*  FORM  */
+form {
+  padding: 30px;
+  margin: 50px auto;
+  border: solid thin black;
+  border-radius: 6px;
+  background: rgba(220, 220, 220, 0.19);
+  border-color: grey;
+  max-width: 316px; 
+}
+
+label {
+  text-align: left; 
+  padding-right: 2px;
+}
+input {
+  width: 100px; 
+}
+
+h3{
+  margin-left: 60px;
+}
+.btn{
+  margin-left: 70px;
+}

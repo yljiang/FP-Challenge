@@ -1,0 +1,20 @@
+doctype 5
+html.
+    <head>
+        <meta charset="utf8">
+        <base href="/">
+        <title>Fresh Prints Tech Challenge</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/app.css">
+
+    </head>
+
+    <form class="form" action="/">
+        <h3> Quote Price </h3>
+        <p> <b>Style:</b> #{style} - #{quantity} pieces </p>
+        <p> <b>Order Cost:</b> $#{data.ordercost} </p>
+        <p> <b>Shipping:</b> $#{data.shipping} </p>
+        <p> <b>Markup:</b> #{data.markup} </p>
+        <p> <b>Total:</b> $#{data.total} </p>
+        <input class="btn btn-submit" type="submit" value="Go back">
+    </form>
